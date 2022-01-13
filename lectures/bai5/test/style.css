@@ -1,0 +1,11 @@
+p {
+  display: none;
+}
+
+.show-text p {
+  display: block;
+}
+
+.trigger {
+  color: green;
+}
