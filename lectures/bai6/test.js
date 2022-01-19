@@ -1,7 +1,14 @@
-function Dog(name) {
-  this.name = name;
+// const fs = require('fs');
+
+// fs.readFile('nullFile', (err, data) => {
+//   // console.log(data);
+//   // console.error(err);
+// });
+
+try {
+  throw new Error('Hello World Error!');
+} catch(e) {
+  throw e;
 }
 
-let unnie = new Dog('Unnie');
-
-console.log(`My dog's name is ${unnie.name}`);
+console.log(`Code after error`);
